@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   border-radius : 30px;  
   position: relative;
-  display: none;
+  display : none;
 }
 .success h1 {
   text-align:left;
@@ -32,13 +32,12 @@ body {
   font-size : 15px;
 }
 .success svg{
-  margin : 90px  0px;
-  width : 90%;
-  height : 40px;
+  margin : 60px 80px;
   position: absolute;
+  top : 0;
 }
 .success button{
-  margin : 30px 0px 0px 90px;
+  margin : 50px 0px 0px 90px;
   width : 80%;
   transform: translate(-10%, -60%);
   font-size: 20px;
@@ -49,17 +48,6 @@ body {
   box-shadow: 4px 6px 20px 9px pink; 
 }
 
-/* @media screen and(max-width : 768px){
-  body{
-    width : 300px;
-    height : 190vh;
-    display : flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: aliceblue;
-
-  }
-} */
 img{
   width : 420px;
   height :465px;
@@ -98,11 +86,11 @@ input{
   height : 400px;
 }
 
-svg{
+ 
+   span svg{
+      display : flex;    
       width : 20px;
-    }
-    span{
-      display : flex;     
+      height: 20px; 
     }
     .contain p{
       font-size: 12px;
@@ -114,6 +102,7 @@ svg{
     #small p{
       margin-bottom: 40px;
       font-size: 15px;
+      font-weight: bold;
     }
     span p{
       margin : 21px 0 0 10px;
@@ -133,7 +122,6 @@ svg{
    color : white;
    border  : none ;
    border-radius  : 8px;
- 
    cursor: pointer;
   }
   button:hover{

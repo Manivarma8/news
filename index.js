@@ -33,7 +33,7 @@ else{
 
     setTimeout(() => {
         success.style.display = "grid";  
-    }, 1000);
+    }, 500);
     
 
 } })
