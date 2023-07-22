@@ -22,19 +22,17 @@ body {
 }
 .success h1 {
   text-align:left;
-  margin-top : 170px;
-  margin-left : 95px;
+  margin-left : 45px;
   font-size: 50px;
 }
 .success h5{
   text-align: left;
-  margin-left : 100px;
+  margin-left : 50px;
   font-size : 15px;
 }
 .success svg{
-  margin : 60px 80px;
-  position: absolute;
-  top : 0;
+  margin : 60px 40px;
+  
 }
 .success button{
   margin : 50px 0px 0px 90px;
