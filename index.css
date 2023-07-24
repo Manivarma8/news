@@ -10,8 +10,8 @@ body {
   color :rgb(14, 14, 63)
 }
 .success{
-  width : 551px;
-  height :551px;
+  width : 552px;
+  height :552px;
   background-color: white;
   color : rgb(14, 14, 63);
   display : flex;
@@ -60,7 +60,8 @@ h1{
   font-weight: bold;
 }
 span{
-  height : 30px
+  height : 30px;
+
 }
 .contain{
   background-color: white;
